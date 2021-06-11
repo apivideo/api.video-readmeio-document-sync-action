@@ -4,7 +4,7 @@
   "description": "Synchronize a readme.io documentation from the readme of a Github repository",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "ncc build index.js --license LICENSE"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
     "@actions/core": "^1.4.0",
     "@actions/github": "^5.0.0",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.28.6"
   }
 }

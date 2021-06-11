@@ -4,18 +4,19 @@ inputs:
   document-slug:  
     description: 'Slug of the readme.io document to synchronize'
     required: true
-  content:  
-    description: 'The content of the document'
+  markdown-file-path:  
+    description: 'The path of the markdown file to use for synchronization'
     required: true    
   readme-io-api-key:
     description: 'Your API key to request readme.io'
     required: true
-  relative-links-host:  
-    description: 'If provided, all relative markdown links in the document will be prefixed with this value'
+  make-relative-links-absolute:  
+    description: 'If true, all relative markdown links in the markdown will be made absolute'
     required: false        
+    default: "false"
 outputs:
   response: # id of output
     description: 'The response status from readme.io'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'dist/index.js'
