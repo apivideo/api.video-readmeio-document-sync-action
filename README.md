@@ -1,16 +1,28 @@
-[![badge](https://img.shields.io/twitter/follow/api_video?style=social)](https://twitter.com/intent/follow?screen_name=api_video)
-
-[![badge](https://img.shields.io/github/stars/apivideo/readmeio-document-sync-action?style=social)](https://github.com/apivideo/readmeio-document-sync-action)
-
-[![badge](https://img.shields.io/discourse/topics?server=https%3A%2F%2Fcommunity.api.video)](https://community.api.video)
-
+[![badge](https://img.shields.io/twitter/follow/api_video?style=social)](https://twitter.com/intent/follow?screen_name=api_video) &nbsp; [![badge](https://img.shields.io/github/stars/apivideo/readmeio-document-sync-action?style=social)](https://github.com/apivideo/readmeio-document-sync-action) &nbsp; [![badge](https://img.shields.io/discourse/topics?server=https%3A%2F%2Fcommunity.api.video)](https://community.api.video)
 ![](https://github.com/apivideo/API_OAS_file/blob/master/apivideo_banner.png)
+<h1 align="center">readmeio-document-sync-action</h1>
 
-[api.video](https://api.video) is an API that encodes on the go to facilitate immediate playback, enhancing viewer streaming experiences across multiple devices and platforms. You can stream live or on-demand online videos within minutes.
+[api.video](https://api.video) is the video infrastructure for product builders. Lightning fast video APIs for integrating, scaling, and managing on-demand & low latency live streaming features in your app.
 
-# apivideo/readmeio-document-sync-action
+# Table of contents
+
+- [Table of contents](#table-of-contents)
+- [Project description](#project-description)
+- [Documentation](#documentation)
+  - [Inputs](#inputs)
+      - [`document-slug`](#document-slug)
+      - [`markdown-file-path`](#markdown-file-path)
+      - [`readme-io-api-key`](#readme-io-api-key)
+      - [`make-relative-links-absolute`](#make-relative-links-absolute)
+  - [Outputs](#outputs)
+      - [`response`](#response)
+  - [Example usage](#example-usage)
+
+# Project description
+
 This action let you synchronize a readme.io documentation using a markdown file from your repository.
 
+# Documentation
 
 ## Inputs
 
