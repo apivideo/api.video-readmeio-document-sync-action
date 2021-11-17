@@ -8,8 +8,7 @@ const makeLinksAbsolute = (repository, markdownFilePath, content) => {
     const relativeFolder = path.parse(markdownFilePath).dir;
     const linksPrefix = `${repository.html_url}/blob/${repository.default_branch}/${!!relativeFolder ? relativeFolder + '/' : ''}`;
 
-    return content.replace(/\[([^\[]+)\]\(((?!https?:\/\/).*)\)/gm, `[$1](${linksPrefix}$2)`)
-        .replaceAll(`${linksPrefix}#`, `${linksPrefix}${markdownFilePath}#`);
+    return content.replace(/\[([^\[]+)\]\(((?!#)(?!https?:\/\/).*)\)/gm, `[$1](${linksPrefix}$2)`);
 }
 
 const uploadDocument = (content, slug, apiKey, callback) => {
