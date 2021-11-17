@@ -1,6 +1,6 @@
 {
   "name": "readmeio-document-sync-action",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Synchronize a readme.io documentation from the readme of a Github repository",
   "main": "index.js",
   "scripts": {
