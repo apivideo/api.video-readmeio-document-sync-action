@@ -40,6 +40,7 @@ try {
 
     if (makeRelativeLinksAbsolute) {
         content = makeLinksAbsolute(repository, markdownFilePath, content);
+        console.log(content);
     }
 
     uploadDocument(content, documentSlug, apiKey, (error, response) => {
