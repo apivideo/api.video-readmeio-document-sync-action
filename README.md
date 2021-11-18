@@ -1,4 +1,4 @@
-[![badge](https://img.shields.io/twitter/follow/api_video?style=social)](https://twitter.com/intent/follow?screen_name=api_video) &nbsp; [![badge](https://img.shields.io/github/stars/apivideo/readmeio-document-sync-action?style=social)](https://github.com/apivideo/readmeio-document-sync-action) &nbsp; [![badge](https://img.shields.io/discourse/topics?server=https%3A%2F%2Fcommunity.api.video)](https://community.api.video)
+[![badge](https://img.shields.io/twitter/follow/api_video?style=social)](https://twitter.com/intent/follow?screen_name=api_video) &nbsp; [![badge](https://img.shields.io/github/stars/apivideo/api.video-readmeio-document-sync-action?style=social)](https://github.com/apivideo/api.video-readmeio-document-sync-action) &nbsp; [![badge](https://img.shields.io/discourse/topics?server=https%3A%2F%2Fcommunity.api.video)](https://community.api.video)
 ![](https://github.com/apivideo/API_OAS_file/blob/master/apivideo_banner.png)
 <h1 align="center">readmeio-document-sync-action</h1>
 
@@ -51,7 +51,7 @@ The status code of the response from readme.io.
 ## Example usage
 
 ```yml
-uses: apivideo/readmeio-document-sync-action
+uses: apivideo/api.video-readmeio-document-sync-action
 with:
   document-slug: 'my-software-documentation'
   markdown-file-path: README.md
